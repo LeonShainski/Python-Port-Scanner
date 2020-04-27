@@ -10,7 +10,7 @@ from datetime import datetime
 showProcess=False
 openPorts = []
 startPort=1
-endPort=85
+endPort=500
 
 #Checking for the optional option for printing the process as we go through the ports
 if len(sys.argv) == 3:
