@@ -1,7 +1,7 @@
 # Python-Port-Scanner
 This is a simple port scanner built with python.
-
-##Usage
+ 
+## Usage
 
 Standard Usage from terminal: python3 scanner.py <ip>
   
