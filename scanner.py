@@ -33,7 +33,6 @@ print("-" * 50)
 
 
 try:
-        print(showProcess)
         for port in range(startPort,endPort):
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #once again defining the socket
             socket.setdefaulttimeout(0.1) #Setting a timeout of 1 second for attempting to connect to a port
